@@ -5,6 +5,8 @@ This is REST API that analyzes `journalctl` output to find `sshd` attempts to lo
 
 You will need `python3`, `flask` and `flask-limiter` to run it. You will also need `ssh-pings-client` to visualize the output.
 
+**Warning**: You may need to change `sshd.service` to `ssh.service` depending on your system configuration (in my experience, Arch Linux uses `sshd.service` but Debian uses `ssh.service`).
+
 Documentation
 -------------
 
